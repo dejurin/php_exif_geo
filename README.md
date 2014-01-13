@@ -5,7 +5,7 @@ PHP Exif (geo with make and model)
 
 include "Exifdata.php";
 
-object = New Exifdata;
+$object = New Exifdata;
 
-var_dump(object->exifdata->get_exif('file.jpg'));
+var_dump($object->exifdata->get_exif('file.jpg'));
 
